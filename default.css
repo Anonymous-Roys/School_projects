@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(images/img1.gif);
+    background-repeat: repeat-x;
+    background-color: #B2D22A;
+    font-family: Trebuchet 'Trebuchet MS', Arial, Helvetica, sans-serif;
+   
+}
+
+#all{
+     width: 480px;
+    color: #688000;
+    border-radius: 9px;
+    padding: 0px;
+    margin: auto;
+}
+
+/* --------header---------- */
+#header{
+    display: flex;
+    height: 130px;
+    background: url(images/img2.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#header h2{
+    font-size: 12px;
+}
+#header ul{
+    width: 130px;
+}
+#header li{
+    width: 100%;
+    text-decoration: underline 1px dotted;
+    background-color: red;
+}
+
+.first{
+    font-size: 24px;
+}
+a{
+    color: #688000; 
+}
+#header a{
+    text-decoration: underline 1px dotted;
+}
+
+/* ---------content---------- */
+
+.topics{
+    color: #363f0f;
+    padding: 5px 0px;
+    font-weight: bold;
+    font-size: 19px;
+}
+.small{
+    font-size: 13px;
+}
+#content{
+    background: url(images/img3.gif);
+}
+
+#col{
+    background: url(images/img5.gif);
+    background-size: cover;
+    margin: 0px 14px; 
+}
+#content1{
+    border-bottom: 1px #869c20 dotted;
+}
+#content1, #content2, #content3{
+    padding: 13px 30px;
+}
+
+#content1 p{
+    padding: 8px 0px;
+}
+#content2{
+    border-bottom: 1px #869c20 dotted;
+}
+#content2 p{
+    padding: 2px 0px;
+}
+#content ul, ol, blockquote{
+    padding: 7px 30px;
+}
+#content3{
+    background: url(images/img6.gif);
+    background-size: cover;
+    display: flex;
+    flex-basis: 100%;
+    border-top: 3px solid white;
+    background-color: #E5FAA0;
+}
+
+#content3 > div{
+    width: 50%;
+}
+#content3 ul{
+    padding: 0;
+    padding: 10px;
+}
+
+#content3 li, #header li{
+    list-style-image: url(images/img4.gif);     
+}
+
+
+
+/* -----------footer---------- */
+#footer{
+    height: 55px;
+    background: url(images/img7.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 25px;
+    text-align: center;
+}
