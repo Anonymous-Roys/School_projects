@@ -8,8 +8,7 @@ body{
     background: url(images/img1.gif);
     background-repeat: repeat-x;
     background-color: #B2D22A;
-    font-family: Trebuchet 'Trebuchet MS', Arial, Helvetica, sans-serif;
-   
+    font-family: Trebuchet 'Trebuchet MS', Arial, Helvetica, sans-serif;  
 }
 
 #all{
@@ -30,33 +29,31 @@ body{
     justify-content: space-around;
     padding: 20px;
 }
-
+#header h1 a{
+    font-size: 40px;
+}
 #header h2{
     font-size: 12px;
 }
 #header ul{
     width: 130px;
 }
-#header li{
-    width: 100%;
-    text-decoration: underline 1px dotted;
-    background-color: red;
+
+.line{
+    border: 1px dotted;
 }
 
-.first{
-    font-size: 24px;
-}
 a{
     color: #688000; 
 }
 #header a{
-    text-decoration: underline 1px dotted;
+    text-decoration: none;
 }
 
 /* ---------content---------- */
 
 .topics{
-    color: #363f0f;
+    color: #617703;
     padding: 5px 0px;
     font-weight: bold;
     font-size: 19px;
@@ -94,10 +91,10 @@ a{
 }
 #content3{
     background: url(images/img6.gif);
-    background-size: cover;
+    background-size: contain;
     display: flex;
     flex-basis: 100%;
-    border-top: 3px solid white;
+    border-top: 1px solid white;
     background-color: #E5FAA0;
 }
 
