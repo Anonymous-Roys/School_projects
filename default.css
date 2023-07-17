@@ -4,11 +4,13 @@
     box-sizing: border-box;
 }
 
+/* ------------whole page----------- */
 body{
     background: url(images/img1.gif);
     background-repeat: repeat-x;
     background-color: #B2D22A;
-    font-family: Trebuchet 'Trebuchet MS', Arial, Helvetica, sans-serif;  
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: justify;  
 }
 
 #all{
@@ -28,19 +30,40 @@ body{
     background-repeat: no-repeat;
     justify-content: space-around;
     padding: 20px;
+    text-transform: lowercase;
+
 }
+
+#main_title{
+        margin-left: -40px;
+        margin-top: 15px;
+}
+
 #header h1 a{
     font-size: 40px;
+
+    padding-top: 30px;
 }
+
 #header h2{
-    font-size: 12px;
+    font-size: 13px;
 }
+
 #header ul{
-    width: 130px;
+    width: 140px;
+    list-style-image: url(images/img4.gif);
+}
+
+#header li{
+    margin-left: 9px;
+    padding: 2px 0;
+    font-size: 13px;
+
 }
 
 .line{
-    border: 1px dotted;
+    border: none;
+    border-top: 1px dotted;
 }
 
 a{
@@ -50,16 +73,19 @@ a{
     text-decoration: none;
 }
 
+
 /* ---------content---------- */
 
 .topics{
     color: #617703;
     padding: 5px 0px;
-    font-weight: bold;
-    font-size: 19px;
+    font-weight:bolder;
+    font-size: 22px;
+    text-transform: lowercase;
 }
 .small{
     font-size: 13px;
+    text-transform: lowercase;
 }
 #content{
     background: url(images/img3.gif);
@@ -67,8 +93,8 @@ a{
 
 #col{
     background: url(images/img5.gif);
-    background-size: cover;
-    margin: 0px 14px; 
+    background-repeat: repeat-x;
+    margin: 0px 15px; 
 }
 #content1{
     border-bottom: 1px #869c20 dotted;
@@ -83,32 +109,40 @@ a{
 #content2{
     border-bottom: 1px #869c20 dotted;
 }
+p, ol,ul{
+    font-size: 14px;
+}
 #content2 p{
     padding: 2px 0px;
+}
+#content2 ul{
+    list-style-type: none;
+    margin-left: -15px;
+}
+#content2 ul li::before{
+    content: "\25C6";
+    margin-right: 8px;
 }
 #content ul, ol, blockquote{
     padding: 7px 30px;
 }
 #content3{
     background: url(images/img6.gif);
-    background-size: contain;
+    background-repeat: repeat-x;
     display: flex;
     flex-basis: 100%;
-    border-top: 1px solid white;
+    border-top: 0.1px solid white;
     background-color: #E5FAA0;
 }
-
 #content3 > div{
     width: 50%;
 }
 #content3 ul{
     padding: 0;
     padding: 10px;
+    list-style-image: url(images/img4.gif);
 }
 
-#content3 li, #header li{
-    list-style-image: url(images/img4.gif);     
-}
 
 
 
