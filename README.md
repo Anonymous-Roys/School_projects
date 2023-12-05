@@ -1,2 +1,2 @@
 # School_projects
-Hands on with html and css
+Hands on with html and css in UMaT
