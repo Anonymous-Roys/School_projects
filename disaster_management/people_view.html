@@ -4,58 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Natural Disaster Resilience</title>
+    <link rel="stylesheet" href="./styles/style.css">
     <style>
 
-        #hi{
-            display: flex;
-            height: 100vh;
-            justify-content: center;
-            align-items: center;
-            background-color: rgb(179, 172, 172);
-            flex-direction: column;
-        }
-        #page{
-            width: 500px;
-            display: flex;
+        #victim-page select{
+            padding: 5px;
             text-align: center;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            margin-top: 100px;
-            background-color: aqua;
-            border-radius: 10px;
-            padding: 20px;
+            font-weight: 700;
+            border-radius: 6px;
+            background: #e9e5e5;
         }
+        #victim-page select:hover{
+            background: #ababab;
+        }
+   
     </style>
 </head>
 <body>
-    <div id="hi">
-        <h1>Welcome People!!!</h1>
-        <div id="page">
-            <div>
-                <select name="" id="">
-                    <option value="help">
-                        <h1>HELP!!</h1>
-                    </option>
-                    <option value="fire">Fire</option>
-                    <option value="flood">Flood</option>
-                    <option value="others">Others</option>
-                </select>
+    <div id="victim-page">
+        <div id="help-front-page">
+            <h1>We Are Keeping You Safe!!!</h1>
+            <div id="help-call">
+                <div>
+                    <select name="help-type" id="help-type">
+                        <option value="---">Select HELP!!!</option>
+                        <option value="fire">Fire</option>
+                        <option value="flood">Flood</option>
+                        <option value="others">Others</option>
+                    </select>
+                </div><br>
+                <p>Intensity for disaster</p>
+                <input type="range"><br>
+                <button>Send</button>
+            
             </div>
-            <label for="intensity">Intensity for disaster</label><br>
-            <input type="range"><br><br>
-            <button>Send</button>
-        
         </div>
-    </div>
-    <div style="position: absolute; bottom: 0; left: 0;">
-        <textarea name="chat" id="chat" cols="30" rows="7">World Chat</textarea>
-        <button>Send</button>
-    </div>
-    <!-- insertion of a chat for agencies -->
-    <div style="position: absolute; bottom: 0; right: 0;">
-        <textarea name="chat" id="chat" cols="30" rows="7">Share Experience</textarea>
-        <button>Send</button>
+        
+    
+        <div class="text-box"> 
+            <div class="button">
+                <textarea name="world-chat" id="world-chat" cols="28" rows="7">World Chat</textarea>
+                <button>Send</button>
+            </div>
+            <!-- insertion of a chat for agencies -->
+            <div class="button">
+                <textarea name="agency-chat" id="agency-chat" cols="28" rows="7">Share Experience</textarea>
+                <button>Send</button>
+            </div>
+        </div>
     </div>
   
 </body>
