@@ -7,3 +7,6 @@ function fn(sideName){
     }
     document.getElementById(sideName).classList.add("present")
 }
+
+
+document.getElementById("")
