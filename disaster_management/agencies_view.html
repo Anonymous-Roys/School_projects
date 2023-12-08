@@ -9,54 +9,55 @@
     
 </head>
 <body>
-    <div class="container">
-        <div class="header">Header</div>
-    
-        <!-- ---------sidebar-----------  -->
-        <div class="sidebar">
-            <h2>Sidebar</h2>
-            <ul>
-                <li class="side" onclick="fn('home-side')" style="background: #9c999b;">Home</li>
-                <li class="side" onclick="fn('broadcast-side')" style="background: #ebeae7;">Message Broadcast</li>
-                <li class="side" onclick="fn('alert-side')" style="background: #ff0000;">Disaster Alert</li>
-                <li class="side" onclick="fn('resources-side')" style="background: #4d6092;">Resources</li>
-                <li class="side" onclick="fn('help-side')" style="background: #4d6092;">Need a Bigger help</li>
-
-            </ul>
-        </div>
-        <div class="content">
-            <h2>Agencies</h2>
-    
-            <div class="image present" id="home-side">
-                <img src="download.jpeg" alt="my_pic">
-            </div>
-    
-            <div class="image" id="broadcast-side">
-                <img src="broadcast.jpeg" alt="">
-            </div>
-            <div class="image" id="alert-side">
-                <img src="down.png" alt="">
-            </div>
-            <div class="image" id="help-side">
-                <img src="hand.jpeg" alt="">
-            </div>
-           
-        </div>
+    <div id="agencies-view">
+        <div class="container">
+            <div class="header">Header</div>
         
-        <div class="footer">Footer</div>
-    </div>
-    <div class="text-box"> 
-        <div class="button">
-            <textarea name="world-chat" id="world-chat" cols="28" rows="7">Message your Voluntary workers</textarea>
-            <button>Send</button>
+            <!-- ---------sidebar-----------  -->
+            <div class="sidebar">
+                <h2>Sidebar</h2>
+                <ul>
+                    <li class="side" onclick="fn('home-side')" style="background: #9c999b;">Home</li>
+                    <li class="side" onclick="fn('broadcast-side')" style="background: #ebeae7;">Message Broadcast</li>
+                    <li class="side" onclick="fn('alert-side')" style="background: #ff0000;">Disaster Alert</li>
+                    <li class="side" onclick="fn('resources-side')" style="background: #4d6092;">Resources</li>
+                    <li class="side" onclick="fn('help-side')" style="background: #4d6092;">Need a Bigger help</li>
+
+                </ul>
+            </div>
+            <div class="content">
+                <h2>Agencies</h2>
+        
+                <div class="image present" id="home-side">
+                    <img src="download.jpeg" alt="my_pic">
+                </div>
+        
+                <div class="image" id="broadcast-side">
+                    <img src="broadcast.jpeg" alt="">
+                </div>
+                <div class="image" id="alert-side">
+                    <img src="down.png" alt="">
+                </div>
+                <div class="image" id="help-side">
+                    <img src="hand.jpeg" alt="">
+                </div>
+            
+            </div>
+            
+            <div class="footer">Footer</div>
         </div>
-        <!-- insertion of a chat for agencies -->
-        <div class="button">
-            <textarea name="agency-chat" id="agency-chat" cols="28" rows="7">Message your batallions</textarea>
-            <button>Send</button>
+        <div class="text-box"> 
+            <div class="button">
+                <textarea name="world-chat" id="world-chat" cols="28" rows="7">Message your Voluntary workers</textarea>
+                <button>Send</button>
+            </div>
+            <!-- insertion of a chat for agencies -->
+            <div class="button">
+                <textarea name="agency-chat" id="agency-chat" cols="28" rows="7">Message your batallions</textarea>
+                <button>Send</button>
+            </div>
         </div>
     </div>
-    
     <script src="responsive.js"></script>
 
 </body>

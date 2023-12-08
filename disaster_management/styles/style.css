@@ -197,3 +197,8 @@ button:active {
     margin: 0 0 12px -62px;
     bottom: 0;
 }
+
+/* -----------agencies view---------------- */
+#agencies-view{
+    background: var(--button-color);
+}
