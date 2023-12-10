@@ -29,12 +29,15 @@
     padding: 5px;
     border-radius: 5px 0 0;
 }
-
-.image{
+.side{
+    cursor: pointer;
+}
+.partition{
     border-radius: 5px;
     display: none;
+    min-height: 100vh;
 }
-.image img{
+.partition img{
     width: 400px;
     height: 400px;
 }
