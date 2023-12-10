@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Natural Disaster Resilience</title>
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
 </head>
 <body>
+    <div id="volunteer-view">
         <div class="container">
             <div class="header">Header</div>
         
@@ -15,28 +16,29 @@
             <div class="sidebar">
                 <h2>Sidebar</h2>
                 <ul>
-                    <li class="side" onclick="fn('royi')" style="background: #9b979a;">Home</li>
-                    <li class="side" onclick="fn('joebi')" style="background: #ff0101;">Disaster Alert</li>
-                    <li class="side" onclick="fn('jasoni')" style="background: #3e3e3f;">Resources</li>
+                    <li class="side" onclick="fn('home-side')" style="background: #9b979a;">Home</li>
+                    <li class="side" onclick="fn('alert-side')" style="background: #ff0101;">Disaster alert-side</li>
+                    <li class="side" onclick="fn('resources-side')" style="background: #3e3e3f;">Resources</li>
         
                 </ul>
             </div>
             <div class="content">
                 <h2>Voluntary View</h2>
         
-                <div class="image present" id="royi">
+                <div class="image present" id="home-side">
                     <img src="IMG-20230315-WA0161.jpg" alt="my_pic">
                 </div>
         
                 <div class="image" id="shugai">
                     <img src="white_lion.jpg" alt="">
                 </div>
-                <div class="image" id="joebi">
+                <div class="image" id="alert-side">
                     <img src="davis.png" alt="">
                 </div>
             </div>
         
             <div class="footer">Footer</div>
+        </div>
             <div class="text-box"> 
                 <div class="button">
                     <textarea name="world-chat" id="world-chat" cols="28" rows="7">World chat</textarea>
