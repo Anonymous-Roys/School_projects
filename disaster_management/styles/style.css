@@ -178,6 +178,16 @@ button:active {
     background: var(--bg-hover);
     box-shadow: var(--box-shadow);
 }
+#victim-page select{
+    padding: 5px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 6px;
+    background: #e9e5e5;
+}
+#victim-page select:hover{
+    background: #ababab;
+}
 .text-box{
     display: flex;
     position: sticky;
