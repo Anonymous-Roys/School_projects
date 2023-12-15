@@ -211,6 +211,25 @@ button:active {
     bottom: 0;
 }
 
+#victim-page #blurry-container{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 333;
+    top: 0;
+    width: 0%;
+    backdrop-filter: blur(1.5px);
+}
+
+#victim-page #blurry-container .info-container{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
 /* -----------agencies view---------------- */
 #agencies-view{
     background: var(--button-color);

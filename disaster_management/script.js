@@ -1,4 +1,6 @@
 function helpCall(){
+    blurryContainer = document.getElementById('blurry-container');
+    blurryContainer.style.width = '100%';
     helpType=document.getElementById("help-type").value;
-    alert("Are you sure it is "+helpType);
+    document.getElementById("info").innerHTML = "Are you sure it is <br> <h3>"+helpType+"</h3>";
 }
