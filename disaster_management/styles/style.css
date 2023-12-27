@@ -214,19 +214,21 @@ button:active {
 #victim-page #blurry-container{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.692);
-    display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     z-index: 333;
     top: 0;
-    width: 0%;
+    width: 100%;
     backdrop-filter: blur(1.5px);
+    display: none;
 }
+
+
 #victim-page #blurry-container button{
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 5px;
+    left: 5px;
 }
 
 #victim-page #blurry-container .info-container{
