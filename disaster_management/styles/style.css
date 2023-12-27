@@ -223,6 +223,11 @@ button:active {
     width: 0%;
     backdrop-filter: blur(1.5px);
 }
+#victim-page #blurry-container button{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
 #victim-page #blurry-container .info-container{
     background-color: white;
